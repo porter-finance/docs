@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Porter Document Portal](README.md)
+* [Porter Docs](README.md)
 * [Litepaper](litepaper.md)
 
 ## Product
