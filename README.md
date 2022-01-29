@@ -11,11 +11,11 @@ This Portal links to the key resources on Porter to understand the fundamentals 
 
 ## Product
 
-* [Product Spec](https://app.gitbook.com/o/aqu26msxcMEfPPcwEPfW/s/VJEl5gLvp1qRDmr0Svhq/)
+* [Product Spec](https://docs.porter.finance/product)
 
 ## Company
 
-* [Handbook](https://app.gitbook.com/o/aqu26msxcMEfPPcwEPfW/s/j8k4ImViDPeJ9CHQOlkJ/)
+* [Handbook](https://docs.porter.finance/handbook/)
 
 ## Community
 
