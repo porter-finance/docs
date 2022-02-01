@@ -79,14 +79,14 @@ If the funding threshold is not surpassed, there is no auction settlement and bi
 
 ## Acknowledgments
 
-This paper is heavily indebted to discussions with Max Fiege, Anthony DeMartino, Ben Forman, Dan Elitzer, Sidney Powell, Joey Santoro, Elliot Friedman, Russell Ratcliffe, and Nick Estorga.
+This paper is heavily indebted to discussions with Max Fiege, Anthony DeMartino, Ben Forman, Dan Elitzer, Sidney Powell, Joey Santoro, Elliot Friedman, [Russell Ratcliffe](https://github.com/russeii), and Nick Estorga.
 
 ## References
 
-1. TrustToken. _Introducing TrueFi, the DeFi Protocol for Uncollateralized Lending._ URL: https://blog.trusttoken.com/introducing-truefi-the-defi-protocol-for-uncollateralized-lending-9bfd6594a48
-2. Katya Ternopolska. _Guide to Lending on Maple._ URL: https://maplefinance.ghost.io/lending/
-3. Hasu. _A New Mental Model for Defi Treasuries._ URL: https://uncommoncore.co/a-new-mental-model-for-defi-treasuries/
-4. 0xMaki. _Sushi Phantom Troupe - Strategic Raise._ URL: https://forum.sushi.com/t/withdrawn-sushi-phantom-troupe-strategic-raise/4554
+1. TrustToken. _Introducing TrueFi, the DeFi Protocol for Uncollateralized Lending._ URL: [https://blog.trusttoken.com/introducing-truefi-the-defi-protocol-for-uncollateralized-lending-9bfd6594a48](https://blog.trusttoken.com/introducing-truefi-the-defi-protocol-for-uncollateralized-lending-9bfd6594a48)
+2. Katya Ternopolska. _Guide to Lending on Maple._ URL: [https://maplefinance.ghost.io/lending/](https://maplefinance.ghost.io/lending/)
+3. Hasu. _A New Mental Model for Defi Treasuries._ URL: [https://uncommoncore.co/a-new-mental-model-for-defi-treasuries/](https://uncommoncore.co/a-new-mental-model-for-defi-treasuries/)
+4. 0xMaki. _Sushi Phantom Troupe - Strategic Raise._ URL: [https://forum.sushi.com/t/withdrawn-sushi-phantom-troupe-strategic-raise/4554](https://forum.sushi.com/t/withdrawn-sushi-phantom-troupe-strategic-raise/4554)
 
 ## Disclaimer
 
