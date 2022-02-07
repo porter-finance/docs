@@ -4,26 +4,20 @@ cover: >-
 coverY: -729.3506493506494
 ---
 
-# Porter Document Portal
+# Welcome
+
+### Overview
 
 Porter allows DAOs and other on-chain entities to obtain financing by selling long-term debt in the form of tokenized bonds. It facilitates debt pricing, issuance, and repayment.
 
-This Portal links to the key resources on Porter to understand the fundamentals of the Protocol. Please join the discussion on [Porter community Discord server](http://discord.gg/9hJKzXPjHm); our team and members of the community look forward to helping you learn about Porter.
+Porter offers borrowers transparent and efficient debt issuance completed entirely on-chain. For lenders, Porter offers a long term, fixed interest yield source with equity upside through lending to creditworthy DAOs. The underwriters who support the debt offerings perform due diligence and set terms with bond issuers.
 
-## Resources
+### Mission
 
-* [Litepaper](litepaper.md)
+Our mission is to enable DAOs to grow and thrive by giving them access to credit.
 
-### Product
+If you believe DAOs should have access to credit, join the discussion in the [Porter community discord](https://discord.gg/mx8tsEaNut). We look forward to meeting you!
 
-* [Product Spec](https://docs.porter.finance/product)
-
-### Company
-
-* [Handbook](https://docs.porter.finance/handbook/)
-
-### Community
-
-* [Blog](https://blog.porter.finance)
-* [Community Discord](https://discord.com/invite/9hJKzXPjHm)
-* [Twitter](https://twitter.com/porterfinance\_)
+{% hint style="info" %}
+Join the Porter community [here](https://discord.gg/mx8tsEaNut)!
+{% endhint %}
