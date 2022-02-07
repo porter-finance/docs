@@ -21,5 +21,5 @@
 ## resources
 
 * [Blog](https://blog.porter.finance)
-* [Discord](https://discord.com/invite/9hJKzXPjHm)
+* [Discord](https://discord.gg/mx8tsEaNut)
 * [Twitter](https://twitter.com/porterfinance\_)
