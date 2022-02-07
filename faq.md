@@ -6,4 +6,4 @@ Although OlympusDAO uses the term "bond", they are not selling bonds. A bond is 
 
 ### Do you have a token?
 
-We have not launched a token. However, we plan to and will compensate our early partners and users when we do.
+We have not launched a token. However, we will compensate our early partners and users when we do.

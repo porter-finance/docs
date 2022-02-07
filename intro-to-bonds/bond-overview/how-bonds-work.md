@@ -1,0 +1,11 @@
+# How bonds work
+
+Bonds are commonly referred to as fixed-income securities and are one of the main [asset classes](https://www.investopedia.com/terms/a/assetclasses.asp) that individual investors are usually familiar with, along with stocks ([equities](https://www.investopedia.com/terms/e/equity.asp)) and cash equivalents.
+
+Many corporate and [government bonds](https://www.investopedia.com/ask/answers/where-can-i-buy-government-bonds/) are publicly traded; others are traded only [over-the-counter](https://www.investopedia.com/terms/o/otc.asp) (OTC) or privately between the borrower and lender.
+
+When companies or other entities need to raise money to finance new projects, maintain ongoing operations, or refinance existing debts, they may issue bonds directly to investors. The borrower (issuer) issues a bond that includes the terms of the loan, interest payments that will be made, and the time at which the loaned funds (bond principal) must be paid back ([maturity date](https://www.investopedia.com/terms/m/maturitydate.asp)). The interest payment (the coupon) is part of the return that bondholders earn for loaning their funds to the issuer. The interest rate that determines the payment is called the [coupon rate](https://www.investopedia.com/terms/c/coupon-rate.asp).
+
+The initial price of most bonds is typically set at [par](https://www.investopedia.com/ask/answers/why-would-stock-have-no-par-value/), or $1,000 [face value](https://www.investopedia.com/terms/f/facevalue.asp) per individual bond. The actual market price of a bond depends on a number of factors: the [credit quality](https://www.investopedia.com/terms/c/creditquality.asp) of the issuer, the length of time until expiration, and the coupon rate compared to the general interest rate environment at the time. The face value of the bond is what will be paid back to the borrower once the bond matures.
+
+Most bonds can be sold by the initial bondholder to other investors after they have been issued. In other words, a bond investor does not have to hold a bond [all the way through to its maturity date](https://www.investopedia.com/terms/b/bondladdering.asp). It is also common for bonds to be repurchased by the borrower if interest rates decline, or if the borrower’s credit has improved, and it can reissue new bonds at a lower cost.

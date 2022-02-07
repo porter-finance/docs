@@ -1,3 +1,3 @@
 # PRTR Token
 
-Completion ETA is EOD Monday, Feb 7
+The PRTR token has not been launched yet. However, once launched, we will compensate our early partners and users.
