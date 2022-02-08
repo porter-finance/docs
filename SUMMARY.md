@@ -20,7 +20,6 @@
 * [Convertible Bonds](intro-to-bonds/convertible-bonds/README.md)
   * [Overview](intro-to-bonds/convertible-bonds/overview.md)
   * [Pricing](intro-to-bonds/convertible-bonds/pricing.md)
-  * [Example](intro-to-bonds/convertible-bonds/example.md)
 
 ## Protocol
 
