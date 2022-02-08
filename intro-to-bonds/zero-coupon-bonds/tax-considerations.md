@@ -1,3 +1,3 @@
 # Tax considerations
 
-Imputed interest, sometimes referred to as "phantom interest," is an estimated interest rate. The imputed interest on the bond is subject to income tax. The IRS uses an accretive method when calculating the imputed interest on Treasury bonds and has applicable federal rates that set a minimum interest rate in relation to imputed interest and original issue discount rules.
+The imputed interest on zero-coupon bonds is subject to income tax, according to the Internal Revenue Service (IRS). Therefore, although no coupon payments are made on zero-coupon bonds until maturity, investors may still have to pay federal, state, and local income taxes on the imputed interest that accrues each year. Buying zero-coupon bonds using a tax-exempt entity is one of the ways to avoid paying income taxes.

@@ -19,14 +19,20 @@
   * [Tax considerations](intro-to-bonds/zero-coupon-bonds/tax-considerations.md)
 * [Convertible Bonds](intro-to-bonds/convertible-bonds/README.md)
   * [Overview](intro-to-bonds/convertible-bonds/overview.md)
-  * [Pros/Cons](intro-to-bonds/convertible-bonds/pros-cons.md)
+  * [Pricing](intro-to-bonds/convertible-bonds/pricing.md)
   * [Example](intro-to-bonds/convertible-bonds/example.md)
 
 ## Protocol
 
-* [Lenders](protocol/lenders.md)
-* [Borrowers](protocol/borrowers.md)
-* [Underwriters](protocol/underwriters.md)
+* [Sherpas](protocol/sherpas.md)
+* [Borrowers](protocol/borrowers/README.md)
+  * [How to issue bonds](protocol/borrowers/how-to-issue-bonds.md)
+  * [Verification](protocol/borrowers/verification.md)
+  * [Defaults](protocol/borrowers/defaults.md)
+  * [Fees](protocol/borrowers/fees.md)
+* [Lenders](protocol/lenders/README.md)
+  * [How to purchase bonds](protocol/lenders/how-to-purchase-bonds.md)
+  * [Bond conversion](protocol/lenders/bond-conversion.md)
 * [PRTR Token](protocol/prtr-token.md)
 
 ## Resources

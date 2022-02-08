@@ -12,11 +12,11 @@ The creation of credit is an efficient way to allocate resources in a capitalist
 
 ### DAOs lack access to credit
 
-Permissionless credit markets predicated on social capital remain nascent. Notable pioneers like TrueFi \[1] or Maple Finance \[2], while allowing for permissionless lending, still require contractual agreements on behalf of borrowers. Such constraints help explain why these types of credit lines have not yet been made available to DAOs. DAOs need dynamic, on-chain financing options that provide long-term capital and flexible repayment schedules to fit their timelines and goals. Bonds are flexible, long term debt securities which have satisfied the credit needs of corporations for centuries and will do the same for DAOs.
+Permissionless credit markets predicated on social capital remain nascent. Notable pioneers like TrueFi [\[1\]](litepaper.md#references) or Maple Finance [\[2\]](litepaper.md#references), while allowing for permissionless lending, still require contractual agreements on behalf of borrowers. Such constraints help explain why these types of credit lines have not yet been made available to DAOs. DAOs need dynamic, on-chain financing options that provide long-term capital and flexible repayment schedules to fit their timelines and goals. Bonds are flexible, long term debt securities which have satisfied the credit needs of corporations for centuries and will do the same for DAOs.
 
 ### DAOs need credit
 
-The sale of equity-equivalent, governance tokens is the current, dominant strategy for DAOs looking to raise capital. While valuable as a method to initially fund development, selling governance tokens productively becomes increasingly difficult for a DAO as it matures. To start, there is not enough liquidity for large cap DAOs to sell any meaningful number of tokens on the open market without collapsing the price \[3]. Moreover, attempts by DAOs to sell tokens privately to raise funds have sparked community backlash by members wanting to avoid centralization \[4]. Even if the community allowed for private sales, the maximum supply inherent to most governance token contracts renders selling them unsustainable. Issuing bonds offers a sustainable way for mature DAOs to raise the capital needed for protocol development.
+The sale of equity-equivalent, governance tokens is the current, dominant strategy for DAOs looking to raise capital. While valuable as a method to initially fund development, selling governance tokens productively becomes increasingly difficult for a DAO as it matures. To start, there is not enough liquidity for large cap DAOs to sell any meaningful number of tokens on the open market without collapsing the price [\[3\]](litepaper.md#references). Moreover, attempts by DAOs to sell tokens privately to raise funds have sparked community backlash by members wanting to avoid centralization [\[4\]](litepaper.md#references). Even if the community allowed for private sales, the maximum supply inherent to most governance token contracts renders selling them unsustainable. Issuing bonds offers a sustainable way for mature DAOs to raise the capital needed for protocol development.
 
 Token buybacks are another potential use of proceeds obtained through bond sales. If a community feels as though its token is undervalued, it can issue a bond with the intention of using the proceeds to purchase the token. This rewards token holders similar to how share buybacks reward equity holders in traditional finance.
 
@@ -28,7 +28,7 @@ Investors who purchase debt issued by DAOs benefit from increased accessibility 
 
 ## Bond implementation
 
-Bonds are issued as ERC-20 tokens using a new contract for each issuance event. The bond tokens are part of a multi-contract architecture that uses collateral and repayment contracts to facilitate such functions. The bond tokens can be represented as zero coupon bonds. Each bond has a par value of 1 USD and provides a return through the discount at which it is purchased.
+Bonds are issued as ERC-20 tokens using a new contract for each issuance event. The bond tokens are part of a multi-contract architecture that uses collateral and repayment contracts to facilitate such functions. The bond tokens can be represented as zero coupon bonds. Each bond has a par value of 1 borrowed token and provides a return through the discount at which it is purchased. For example, if the bond is denominated in USDC, the par value would be 1 USDC.
 
 ### Repayment
 
@@ -36,7 +36,9 @@ A bond issuer is responsible for paying borrowed principal plus interest to a re
 
 ### Default and delinquency
 
-If a bond issuer does not pay the owed amount by the maturity date, the bond becomes delinquent. Subsequently, Porter alerts the bond holders as well as credit protocols. If the principal and interest is not paid after a reasonable amount of time, the bond is declared to be in default and the aforementioned parties are alerted once again. Once a bond is defaulted on, bond holders will be able to exchange their bond tokens for a prorated share of the collateral provided at issuance from the collateral contract.
+If a bond issuer does not pay the owed amount by the maturity date, the bond is in default. If the principal and interest is not paid after a reasonable amount of time, bond holders will be able to exchange their bond tokens for a prorated share of the collateral provided at issuance from the collateral contract.
+
+If the value of the collateral is less than the value owed, the debt owed is determined and the parties undergo mediation. If the issuer and bondholders cannot agree on an outcome via mediation, the case is then moved to arbitration where a mutually agreed upon third party decides the required remediation actions.
 
 ### Mitigating default risk
 
