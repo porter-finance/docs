@@ -11,5 +11,5 @@ Sherpas perform diligence and underwrite borrowers' bond offerings. Their respon
 For their services, Sherpas are compensated with a fee.
 
 {% hint style="info" %}
-If you're interested in becoming a Sherpa, fill out this [form](https://xudqki8dg3d.typeform.com/to/QFRpXL6q) and we will get back to you shortly.
+If you're interested in becoming a Sherpa, fill out [this form](https://xudqki8dg3d.typeform.com/to/EFwlgt72) and we will get back to you shortly.
 {% endhint %}
