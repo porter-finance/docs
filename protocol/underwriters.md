@@ -8,7 +8,7 @@ Underwriters aid borrowers with their bond offerings. Their responsibilities inc
 * Assisting borrowers in marketing efforts
 * Soliciting price views from lenders
 
-For their services, underwriters are compensated with a fee; the size of which is negotiated with the borrower.
+For their services, underwriters are compensated with a fee.
 
 {% hint style="info" %}
 If you're interested in becoming an underwriter, fill out this quick [underwriter form](https://xudqki8dg3d.typeform.com/to/QFRpXL6q) and we will get back to you shortly.
