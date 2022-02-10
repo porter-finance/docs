@@ -36,6 +36,7 @@
 
 ## Resources
 
+* [Risks](resources/risks.md)
 * [Blog](https://blog.porter.finance)
 * [Discord](https://discord.gg/mx8tsEaNut)
 * [Twitter](https://twitter.com/porterfinance\_)
