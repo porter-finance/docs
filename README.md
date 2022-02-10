@@ -8,9 +8,9 @@ coverY: -729.3506493506494
 
 ### Overview
 
-Porter allows DAOs and other on-chain entities to obtain financing by selling long-term debt in the form of tokenized bonds. It facilitates debt pricing, issuance, and repayment.
+Porter allows [DAOs](https://ethereum.org/en/dao/) and other on-chain entities to obtain financing by selling long-term debt in the form of tokenized bonds. It facilitates debt pricing, issuance, and repayment.
 
-Porter offers borrowers transparent and efficient debt issuance completed entirely on-chain. For lenders, Porter offers a long term, fixed interest yield source with equity upside through lending to creditworthy DAOs. The underwriters who support the debt offerings perform due diligence and set terms with bond issuers.
+Porter offers [borrowers](protocol/borrowers/) transparent and efficient debt issuance completed entirely on-chain. For [lenders](protocol/lenders/), Porter offers a long term, fixed interest yield source with equity upside through lending to creditworthy DAOs. The [underwriters](protocol/sherpas.md) who support the debt offerings perform due diligence and set terms with bond issuers.
 
 ### Mission
 
