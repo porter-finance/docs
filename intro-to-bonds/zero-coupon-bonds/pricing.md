@@ -10,8 +10,8 @@ where:
 * r = required rate of interest
 * n = number of years until maturity
 
-If an investor wishes to make a 6% return on a bond, with $25,000 par value, that is due to mature in three years, they will be willing to pay the following:
+If an investor wishes to make a 10% return on a bond, with 1 USDC par value, that is due to mature in two years, they will be willing to pay the following:
 
-> $25,000 / (1 + 0.06)3 = $20,991.
+> 1 USDC / (1 + 0.1)^2 = 0.83 USDC
 
-If the debtor accepts this offer, the bond will be sold to the investor at $20,991 / $25,000 = 84% of the face value. Upon maturity, the investor gains $25,000 - $20,991 = $4,009, which translates to 6% interest per year. The greater the length of time until the bond matures, the less the investor pays for it, and vice versa.
+If the debtor accepts this offer, the bond will be sold to the investor at 0.83 USDC / 1 USDC = 83% of the face value. Upon maturity, the investor gains 1 USDC - 0.83 USDC = 0.17 USDC, which translates to 10% interest per year. The greater the length of time until the bond matures, the less the investor pays for it, and vice versa.
