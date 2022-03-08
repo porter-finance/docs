@@ -23,7 +23,6 @@
 
 ## Protocol
 
-* [Sherpas](protocol/sherpas.md)
 * [Borrowers](protocol/borrowers/README.md)
   * [How to issue bonds](protocol/borrowers/how-to-issue-bonds.md)
   * [Verification](protocol/borrowers/verification.md)
@@ -32,6 +31,7 @@
 * [Lenders](protocol/lenders/README.md)
   * [How to purchase bonds](protocol/lenders/how-to-purchase-bonds.md)
   * [Bond conversion](protocol/lenders/bond-conversion.md)
+* [Porter](protocol/porter.md)
 * [PRTR Token](protocol/prtr-token.md)
 
 ## Resources

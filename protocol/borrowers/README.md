@@ -1,6 +1,6 @@
 # Borrowers
 
-Porter provides on-chain funding that is transparent and efficient. Borrowers can use their reputations to borrow without having to worry about liquidations or margin calls. Porter is permissionless, removing the traditional barriers to accessing credit markets that exist today.&#x20;
+Porter provides on-chain funding that is transparent and efficient. Borrowers can use their project tokens as collateral to borrow without having to worry about liquidations or interest rate risk.
 
 Borrowers are on-chain entities looking to borrow capital at a fixed interest rate over a pre-determined term length of time.
 

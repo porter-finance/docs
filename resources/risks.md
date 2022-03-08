@@ -8,6 +8,6 @@ The amount of value held by smart contracts increases their risk profile. The th
 
 ## Default Risk
 
-By definition, undercollateralized lending carries a risk of default. To limit this risk, lenders have traditionally put borrowers through an underwriting process. To avoid defaults, lending protocols such as Aave and Compound, which are currently accessible in DeFi, require overcollateralization.&#x20;
+Unavoidably, lending carries a risk of default. To limit this risk, lenders have traditionally put borrowers through an underwriting process. To avoid defaults, lending protocols such as Aave and Compound, which are currently accessible in DeFi, require overcollateralization.&#x20;
 
-By allowing Sherpas and investors to apply their own underwriting techniques to determine the credit worthiness of bond issuers, the Porter protocol allows for more capital efficient lending. The Porter governance process scrutinizes Sherpas and their strategy for establishing credit worthiness.
+By allowing investors to apply their own underwriting techniques to determine the credit worthiness of bond issuers, the Porter protocol allows for more efficient lending.

@@ -10,15 +10,15 @@ Although OlympusDAO uses the term "bond", they are not selling bonds. A bond is 
 
 ### How is Porter different than Maple/TrueFi?
 
-Although Maple and TrueFi are also undercollateralized lending platforms, they are different in 3 key ways: sourcing, underwriting, product offering.
+Although Maple and TrueFi also allow under-collateralized lending, they are different in 3 key ways: sourcing, underwriting, product offering.
 
 **Sourcing**
 
-Maple and TrueFi allow lenders to deposit funds into pools where capital for loans is sourced from. This guarantees liquidity for borrowers on the platform but limits the amount of liquidity available to what is in the pool. Porter uses an auction model to source capital from the whole market. Therefore, a bond issuer on Porter has the ability to access more capital than what is available in a Maple/TrueFi pool.
+Maple and TrueFi allow lenders to deposit funds into pools where capital for loans is sourced from. This guarantees liquidity for borrowers on the platform but limits the amount of liquidity available to what is in the pool. Porter uses an auction model to source capital from the whole market. Therefore, a bond issuer on Porter has the potential to access more capital than what is available in a Maple/TrueFi pool.
 
 **Underwriting**
 
-Maple and TrueFi completely offload underwriting and capital allocation to third parties. This increases efficiency but limits the investor's control over their investment. Although Porter also facilitates underwriting through [Sherpas](protocol/sherpas.md), investors decide which on-chain entities' bonds they would like to invest in, giving them more control.
+Maple and TrueFi offload underwriting and capital allocation to third parties. This increases efficiency but limits the investor's control over their investment. Although Porter also facilitates underwriting through verification, investors decide which on-chain entities' bonds they would like to invest in, giving them more control.
 
 #### **Product offering**
 
@@ -26,4 +26,4 @@ Maple and TrueFi offer non-transferable loans. This is a fundamentally different
 
 ### What types of bonds can be issued on Porter?
 
-At launch, Porter will support [zero coupon bonds](intro-to-bonds/zero-coupon-bonds/) with the option of making them [convertible](intro-to-bonds/convertible-bonds/). These instruments best address the needs of market participants at the current state. Porter will allow coupon bonds and other types of debt instruments to be issued in the future.
+At launch, Porter will support [zero coupon bonds](intro-to-bonds/zero-coupon-bonds/) with the option of making them [convertible](intro-to-bonds/convertible-bonds/). These instruments best address the needs of market participants at the current state.
