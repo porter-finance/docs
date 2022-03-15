@@ -8,6 +8,6 @@ The amount of value held by smart contracts increases their risk profile. The th
 
 ## Default Risk
 
-Unavoidably, lending carries a risk of default. To limit this risk, lenders have traditionally put borrowers through an underwriting process. To avoid defaults, lending protocols such as Aave and Compound, which are currently accessible in DeFi, require overcollateralization.&#x20;
+Unavoidably, lending carries a risk of default. To limit this risk, lenders have traditionally put borrowers through an underwriting process. To avoid defaults, lending protocols such as Aave and Compound, which are currently accessible in DeFi, require overcollateralization and enforce liquidation.&#x20;
 
-By allowing investors to apply their own underwriting techniques to determine the credit worthiness of bond issuers, the Porter protocol allows for more efficient lending.
+Porter uses underwriting and overcollateralization to mitigate default risk, however borrowers are not subject to liquidations. A light underwriting process is performed through verification but, ultimately, investors are responsible for applying their own underwriting techniques to determine the credit worthiness of bond issuers. At launch, DAOs will be required to overcollateralize their borrowing with their native project token.

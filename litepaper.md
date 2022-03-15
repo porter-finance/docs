@@ -12,7 +12,7 @@ The creation of credit is an efficient way to allocate resources in a capitalist
 
 ### DAOs lack access to credit
 
-Permissionless credit markets predicated on social capital remain nascent. Notable pioneers like TrueFi [\[1\]](litepaper.md#references) or Maple Finance [\[2\]](litepaper.md#references), while allowing for permissionless lending, still require contractual agreements on behalf of borrowers. Such constraints help explain why these types of credit lines have not yet been made available to DAOs. DAOs need dynamic, on-chain financing options that provide long-term capital and flexible repayment schedules to fit their timelines and goals. Bonds are flexible, long term debt securities which have satisfied the credit needs of corporations for centuries and will do the same for DAOs.
+Decentralized credit markets predicated on social capital remain nascent. Notable pioneers like TrueFi [\[1\]](litepaper.md#references) or Maple Finance [\[2\]](litepaper.md#references), while allowing for permissionless lending, still require contractual agreements on behalf of borrowers. Such constraints help explain why these types of credit lines have not yet been made available to DAOs. DAOs need dynamic, on-chain financing options that provide long-term capital and flexible repayment schedules to fit their timelines and goals. Bonds are flexible, long term debt securities which have satisfied the credit needs of corporations for centuries and will do the same for DAOs.
 
 ### DAOs need credit
 
@@ -36,7 +36,7 @@ A bond issuer is responsible for paying borrowed principal plus interest to a re
 
 ### Default and delinquency
 
-If a bond issuer does not pay the owed amount by the maturity date, the bond is in default. If the principal and interest is not paid after a reasonable amount of time, bond holders will be able to exchange their bond tokens for a prorated share of the collateral provided at issuance from the collateral contract.
+If a bond issuer does not pay the owed amount by the maturity date, the bond is in default. Upon default, bond holders will be able to exchange their bond tokens for a prorated share of the collateral provided at issuance from the collateral contract.
 
 If the value of the collateral is less than the value owed, the debt owed is determined and the parties undergo mediation. If the issuer and bondholders cannot agree on an outcome via mediation, the case is then moved to arbitration where a mutually agreed upon third party decides the required remediation actions.
 

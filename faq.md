@@ -10,7 +10,7 @@ Although OlympusDAO uses the term "bond", they are not selling bonds. A bond is 
 
 ### How is Porter different than Maple/TrueFi?
 
-Although Maple and TrueFi also allow under-collateralized lending, they are different in 3 key ways: sourcing, underwriting, product offering.
+Although Maple and TrueFi also enable decentralized lending, they are different in 3 key ways: sourcing, underwriting, product offering.
 
 **Sourcing**
 
