@@ -1,16 +1,15 @@
 ---
-cover: >-
-  https://images.unsplash.com/photo-1627896131686-31af2d09930a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw0fHxwb3J0ZXJ8ZW58MHx8fHwxNjQzNDc5NDE5&ixlib=rb-1.2.1&q=85
-coverY: -729.3506493506494
+cover: .gitbook/assets/porter-cover-light.png
+coverY: 0
 ---
 
 # Welcome
 
 ### Overview
 
-Porter allows [DAOs](https://ethereum.org/en/dao/) to borrow stablecoins using their project tokens as collateral with fixed rates, no liquidation risk, and guaranteed liquidity.
+Porter allows [DAOs](https://ethereum.org/en/dao/) and other on-chain entities to borrow stablecoins using their tokens as collateral with fixed rates and no liquidations.
 
-For [lenders](protocol/lenders/), Porter offers a long term, fixed interest yield source with token upside through lending to creditworthy DAOs.
+For lenders, Porter offers high, fixed yields and token price upside using lending and option strategies.
 
 ### Mission
 

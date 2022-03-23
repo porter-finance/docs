@@ -1,40 +1,38 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Litepaper](litepaper.md)
 * [FAQ](faq.md)
 
-## Intro to Bonds
+## Financial concepts
 
-* [Bond Overview](intro-to-bonds/bond-overview/README.md)
-  * [What is a bond?](intro-to-bonds/bond-overview/what-is-a-bond.md)
-  * [How bonds work](intro-to-bonds/bond-overview/how-bonds-work.md)
-  * [Bonds vs loans](intro-to-bonds/bond-overview/bonds-vs-loans.md)
-  * [Characteristics of bonds](intro-to-bonds/bond-overview/characteristics-of-bonds.md)
-  * [Varieties of bonds](intro-to-bonds/bond-overview/varieties-of-bonds.md)
-* [Zero Coupon Bonds](intro-to-bonds/zero-coupon-bonds/README.md)
-  * [Overview](intro-to-bonds/zero-coupon-bonds/overview.md)
-  * [Pricing](intro-to-bonds/zero-coupon-bonds/pricing.md)
-  * [Tax considerations](intro-to-bonds/zero-coupon-bonds/tax-considerations.md)
-* [Convertible Bonds](intro-to-bonds/convertible-bonds/README.md)
-  * [Overview](intro-to-bonds/convertible-bonds/overview.md)
-  * [Pricing](intro-to-bonds/convertible-bonds/pricing.md)
+* [Zero Coupon Bonds](financial-concepts/zero-coupon-bonds/README.md)
+  * [Overview](financial-concepts/zero-coupon-bonds/characteristics-of-bonds.md)
+  * [ZCB pricing](financial-concepts/zero-coupon-bonds/zcb-pricing.md)
+* [Options](financial-concepts/convertible-bonds/README.md)
+  * [Put options](financial-concepts/convertible-bonds/put-options.md)
+  * [Call options](financial-concepts/convertible-bonds/call-options.md)
+  * [Option pricing](financial-concepts/convertible-bonds/option-pricing.md)
 
 ## Protocol
 
-* [Products](protocol/products/README.md)
-  * [Simple](protocol/products/simple.md)
-  * [Convert](protocol/products/convert.md)
-* [Borrowers](protocol/borrowers/README.md)
-  * [How to issue bonds](protocol/borrowers/how-to-issue-bonds.md)
-  * [Verification](protocol/borrowers/verification.md)
-  * [Defaults](protocol/borrowers/defaults.md)
-  * [Fees](protocol/borrowers/fees.md)
-* [Lenders](protocol/lenders/README.md)
-  * [How to purchase bonds](protocol/lenders/how-to-purchase-bonds.md)
-  * [Bond conversion](protocol/lenders/bond-conversion.md)
-* [Porter](protocol/porter.md)
+* [Bonds](protocol/bonds/README.md)
+  * [Simple](protocol/bonds/simple.md)
+  * [Convert](protocol/bonds/convert.md)
+* [Offerings](protocol/offerings/README.md)
+  * [Auctions](protocol/offerings/auctions.md)
+  * [OTC sales](protocol/offerings/otc-sales.md)
 * [PRTR Token](protocol/prtr-token.md)
+
+## Participants
+
+* [Borrowers](participants/borrowers/README.md)
+  * [How to borrow](participants/borrowers/how-to-borrow.md)
+  * [Verification](participants/borrowers/verification.md)
+  * [Fees](participants/borrowers/fees.md)
+* [Lenders](participants/lenders/README.md)
+  * [How to lend](participants/lenders/how-to-lend.md)
+  * [Defaults](participants/lenders/defaults.md)
+* [Porter](participants/porter.md)
 
 ## Resources
 
