@@ -72,7 +72,7 @@ As the value of the UNI token drops below $2, the value of the put increases whi
 
 Simple bonds offer investors superior returns compared to other DeFi lending platforms because they combine lending with the sale of options. In terms of risk profile, Simple bonds are closer to stablecoin farming than holding tokens.&#x20;
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (19) (1).png>)
 
 Simple bonds are ideal for yield farmers who have a low/medium risk portion of their portfolio used to chase higher returns.
 

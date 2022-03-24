@@ -10,7 +10,7 @@ Let's use the example bond from the [Convert](../../protocol/bonds/convert.md) p
 
 Uniswap decides to sell the bonds via an auction with a minimum price of $0.90, knowing that the clearing price will probably be higher. The more demand, the higher the bonds will sell for which lowers the interest rate Uniswap pays. During the auction, there was sufficient demand and the clearing price ended up being $0.95. Therefore, Uniswap raised $950,000 (1,000,000 bonds \* $0.95/bond) and will owe $1,000,000 in 12 months, which translates to an effective interest rate of 5.3% ($0.05/$0.95).
 
-![](<../../.gitbook/assets/image (57).png>)
+![](<../../.gitbook/assets/image (23).png>)
 
 ### Repayment
 

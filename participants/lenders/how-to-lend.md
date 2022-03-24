@@ -10,7 +10,7 @@ Let's use the example bond from the [Convert](../../protocol/bonds/convert.md) p
 
 Uniswap decides to sell their Convert bonds via an auction with a minimum price of $0.90. After doing some due-dilligence, a lender decides the value to them at $0.96, so they submit a bid with for 100,000 bonds at a price of $0.96. The auction closes and the clearing price ended up being $0.95. Because the bid price was greater than the close price, the lender's order gets fulfilled at the lower $0.95/bond closing price instead of the $0.96 offered. Therefore, the lender purchases 100,000 bonds for $95,000 which can be redeemed at maturity for $100,000.
 
-![](<../../.gitbook/assets/image (52).png>)
+![](<../../.gitbook/assets/image (19).png>)
 
 ### Redemption
 
