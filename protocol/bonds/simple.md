@@ -54,7 +54,7 @@ Therefore, the value of the zero coupon bond at issuance is $0.95.
 
 #### Put options value at issuance
 
-The value of the options is impossible to determine exactly, but we can use [Black Scholes](https://www.investopedia.com/terms/b/blackscholes.asp) to estimate it. Using a current UNI price of $10, strike price of $2, risk free rate of 5%, annualized volatility of 100%, and time to maturity of 1 year, we get a price of $0.08/option but we only need 0.5 because there are 0.5 UNI as collateral per bond. That gives us $0.04 for our puts.
+The value of the options is impossible to determine exactly, but we can use [Black Scholes](https://www.investopedia.com/terms/b/blackscholes.asp) to estimate it. Using a current UNI price of $10, strike price of $2, risk free rate of 5%, annualized volatility of 100%, and time to maturity of 1 year, we get a price of $0.08/option but we only need 0.5 because there are 0.5 UNI as collateral per bond. That gives us $0.04 for our puts ($0.08 \* 0.5 = $0.04).
 
 #### Simple bond value at issuance
 
@@ -68,7 +68,7 @@ So we can estimate the value of these Simple bonds to be $0.91 / bond at issuanc
 
 ### Simple bond value at maturity
 
-To determine the value of the Simple bond at maturity, we again subtract the value of the put from the value of the zero coupon bond but this time, we determine the values at maturity. Let's determine the value of both starting with the zero coupon bond.
+To determine the value of the Simple bond at maturity, we again subtract the value of the puts from the value of the zero coupon bond but this time, we determine the values at maturity. Let's determine the value of both starting with the zero coupon bond.
 
 #### Zero coupon bond value at maturity
 
