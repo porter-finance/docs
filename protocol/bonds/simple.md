@@ -28,15 +28,15 @@ If the protocol is expected to grow, a DAO might be better off delaying the sale
 
 As of writing, Uniswap has \~$2B of UNI token in their treasury and no stablecoins, so they may want to borrow some stablecoins to diversify their treasury and fund expenses.
 
-Let's say Uniswap issues 1,000,000 Simple bonds maturing in 12 months and backs each with 0.5 UNI as collateral. When selling these bonds, Uniswap is effectively selling a zero coupon bond and buying a put option with a strike price of $2.&#x20;
+Let's say Uniswap issues 1,000,000 Simple bonds maturing in 12 months and backs each with 0.5 UNI as collateral. When selling these bonds, Uniswap is effectively selling a zero coupon bond and buying put options with a strike price of $2.&#x20;
 
-#### Put options strike price
+#### Put option strike price
 
-The put options strike price comes from Uniswap's ability to default on the bond and "sell" the collateral for the value owed at maturity, which is $1. Uniswap having the ability to sell the collateral (0.5 UNI) for $1 means they have a UNI put option with a strike price of $2 ($1/0.5 UNI = $2/UNI strike price).
+The put option strike price comes from Uniswap's ability to default on the bond and "sell" the collateral for the value owed at maturity, which is $1. Uniswap having the ability to sell the collateral (0.5 UNI) for $1 means they have 0.5 put options on UNI with a strike price of $2 ($1/0.5 UNI = $2/UNI strike price).
 
 ### Simple bond value at issuance
 
-To determine the value of the Simple bond at issuance, we have to subtract the value of the put from the value of the zero coupon bond at issuance.
+To determine the value of the Simple bond at issuance, we have to subtract the value of the puts from the value of the zero coupon bond at issuance.
 
 > Simple Bond = Zero Coupon Bond - Put Options
 
@@ -54,7 +54,7 @@ Therefore, the value of the zero coupon bond at issuance is $0.95.
 
 #### Put options value at issuance
 
-The value of the options is impossible to determine exactly, but we can use [Black Scholes](https://www.investopedia.com/terms/b/blackscholes.asp) to estimate it. Using a current UNI price of $10, strike price of $2, risk free rate of 5%, annualized volatility of 100%, and time to maturity of 1 year, we get a price of $0.08/option but we only need 0.5 because there are 0.5 UNI as collateral per bond. That gives us $0.04 for our puts ($0.08 \* 0.5 = $0.04).
+The value of the put options is impossible to determine exactly, but we can use [Black Scholes](https://www.investopedia.com/terms/b/blackscholes.asp) to estimate it. Using a current UNI price of $10, strike price of $2, risk free rate of 5%, annualized volatility of 100%, and time to maturity of 1 year, we get a price of $0.08/option. But we only need 0.5 options because there are 0.5 UNI as collateral per bond. That gives us a value of $0.04 for the puts ($0.08 \* 0.5 = $0.04).
 
 #### Simple bond value at issuance
 
@@ -88,7 +88,7 @@ Unless the price of UNI is below $2, the UNI puts are worthless at maturity. The
 
 ![](<../../.gitbook/assets/image (31).png>)
 
-The put option pricing equation at maturity is greatly simplified when calculated at maturity.
+The put option pricing equation is greatly simplified when calculated at maturity.
 
 > Put Option = MAX(Strike Price - Token Price, $0)
 
@@ -102,7 +102,7 @@ Now, to get the value of the Simple bond at maturity, we subtract the value of t
 >
 > Simple Bond = $1 - 0.5 \* MAX(Strike Price - Token Price, $0)
 
-As the price of the UNI token drops below $2, the value of the put increases which decreases the value of the Simple bond, because it is equal to the zero coupon bond minus the put option.
+As the price of the UNI token drops below $2, the value of the puts increase which decreases the value of the Simple bond, because it is equal to the zero coupon bond minus the put options.
 
 ![](<../../.gitbook/assets/image (54).png>)
 

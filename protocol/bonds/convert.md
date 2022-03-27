@@ -30,23 +30,23 @@ As of writing, Uniswap has \~$2B of UNI token in their treasury and no stablecoi
 
 Let's say Uniswap issues 1,000,000 Convert bonds maturing in 12 months and backs each with 0.5 UNI as collateral with each bond being convertible into 0.04 UNI.  When selling these bonds, Uniswap is effectively selling a zero coupon bond, buying a put option with a strike price of $2, and selling a call option with a strike price of $25.&#x20;
 
-#### Put options strike price
+#### Put option strike price
 
-The put options strike price comes from Uniswap's ability to default on the bond and "sell" the collateral for the value owed at maturity, which is $1. Uniswap having the ability to sell the collateral (0.5 UNI) for $1 means they have a UNI put option with a strike price of $2 ($1/0.5 UNI = $2/UNI strike price).&#x20;
+The put option strike price comes from Uniswap's ability to default on the bond and "sell" the collateral for the value owed at maturity, which is $1. Uniswap having the ability to sell the collateral (0.5 UNI) for $1 means they have put options on UNI with a strike price of $2 ($1/0.5 UNI = $2/UNI strike price).&#x20;
 
-#### Call options strike price
+#### Call option strike price
 
-The call options strike price comes from the ability of the bondholder to convert their bonds into 0.04 UNI, effectively "buying" the collateral for the value owed at maturity, which is $1. The bondholder having the ability to buy the convertible tokens (0.04 UNI) for $1 means they have a UNI call option with a strike price of $25 ($1/0.04 UNI = $25/UNI strike price).&#x20;
+The call option strike price comes from the ability of the bondholder to convert their bonds into 0.04 UNI, effectively "buying" the collateral for the value owed at maturity, which is $1. The bondholder having the ability to buy the convertible tokens (0.04 UNI) for $1 means they have UNI call options with a strike price of $25 ($1/0.04 UNI = $25/UNI strike price).&#x20;
 
 To determine the value of the Convert bond, we have to subtract the price of the puts from the zero coupon bond and add the price of the calls. Note that only 0.5 puts are being sold because there are only 0.5 UNI being used as collateral and there are only 0.04 calls being sold because there are only 0.04 UNI being used as convertible tokens.
 
-### Simple bond value at issuance
+### Convert bond value at issuance
 
-To determine the value of the Simple bond at issuance, we have to subtract the value of the put from the value of the zero coupon bond at issuance.
+To determine the value of the Convert bond at issuance, we have to subtract the value of the puts from the value of the zero coupon bond and add the value of the calls.
 
-> Simple Bond = Zero Coupon Bond - Put Options
+> Convert Bond = Zero Coupon Bond - Put Options + Call Options
 
-Let's determine the value of both starting with the zero coupon bond.
+Let's determine the value of all three starting with the zero coupon bond.
 
 #### Zero coupon bond value at issuance
 
@@ -60,15 +60,15 @@ Therefore, the value of the zero coupon bond at issuance is $0.95.
 
 #### Put options value at issuance
 
-The value of the options is impossible to determine exactly, but we can use [Black Scholes](https://www.investopedia.com/terms/b/blackscholes.asp) to estimate it. Using a current UNI price of $10, strike price of $2, risk free rate of 5%, annualized volatility of 100%, and time to maturity of 1 year, we get a price of $0.08/option but we only need 0.5 because there are 0.5 UNI as collateral per bond. That gives us $0.04 for our puts ($0.08 \* 0.5 = $0.04).
+The price of the put option is impossible to determine exactly, but we can use [Black Scholes](https://www.investopedia.com/terms/b/blackscholes.asp) to estimate it. Using a current UNI price of $10, strike price of $2, risk free rate of 5%, annualized volatility of 100%, and time to maturity of 1 year, we get a price of $0.08/option. But we only need 0.5 options because there are only 0.5 UNI as collateral per bond. That gives us $0.04 for our puts ($0.08 \* 0.5 = $0.04).
 
 #### Call options value at issuance
 
-Using a current UNI price of $10, strike price of $25, risk free rate of 5%, annualized volatility of 100%, and time to maturity of 1 year, Black Scholes gives a price of $1.53/option but we only need 0.04 because each bond is only convertible into 0.04 UNI. That gives us $0.06 for our calls ($1.53 \* 0.04 = $0.06).
+Using a current UNI price of $10, strike price of $25, risk free rate of 5%, annualized volatility of 100%, and time to maturity of 1 year, Black Scholes gives a price of $1.53/option. But we only need 0.04 options because each bond is only convertible into 0.04 UNI. That gives us $0.06 for our calls ($1.53 \* 0.04 = $0.06).
 
 #### Convert bond value at issuance
 
-To get the value of the Convert bond at issuance, we subtract the value of the puts from the value of the zero coupon bond and add the call options.
+To get the value of each Convert bond at issuance, we subtract the value of the puts from the value of the zero coupon bond and add the call options.
 
 > Convert Bond = Zero Coupon Bond - Put Options + Call Options
 >
@@ -94,27 +94,27 @@ This can be confirmed by solving for the zero coupon bond value when time to mat
 
 #### Put options value at maturity
 
-Unless the price of UNI is below $2, the UNI puts are worthless at maturity. They increase to $1 as the price of UNI goes toward $0.
+Unless the price of UNI is below $2, the UNI puts expire worthless at maturity. They increase to $1 as the price of UNI goes toward $0.
 
 ![](<../../.gitbook/assets/image (45).png>)
 
-The put option pricing equation at maturity is greatly simplified when calculated at maturity.
+The put option pricing equation is greatly simplified when calculated at maturity.
 
 > Put Option = MAX(Strike Price - Token Price, $0)
 
 #### Call options value at maturity
 
-Unless the price of UNI is above $25, the UNI calls are worthless at maturity. There is no cap to how much the calls can be worth.
+Unless the price of UNI is above $25, the UNI calls expire worthless at maturity. There is no cap to how much the calls can be worth.
 
 ![](<../../.gitbook/assets/image (28).png>)
 
-The call option pricing equation at maturity is greatly simplified when calculated at maturity.
+The call option pricing equation is greatly simplified when calculated at maturity.
 
 > Call Option = MAX(Token Price - Strike Price, $0)
 
 #### Convert bond value at maturity
 
-ow, to get the value of the Simple bond at maturity, we subtract the value of the puts from the value of the zero coupon bond and add the value of the call options. Remember, we only need 0.5 put options because there are 0.5 UNI as collateral per bond and 0.04 call options because there are 0.04 UNI as convertible tokens per bond.
+To get the value of the Convert bond at maturity, we subtract the value of the puts from the value of the zero coupon bond and add the value of the call options. Remember, we only need 0.5 put options because there are only 0.5 UNI as collateral per bond and 0.04 call options because there are 0.04 UNI as convertible tokens per bond.
 
 > Zero Coupon Bond = $1
 >
@@ -124,7 +124,7 @@ ow, to get the value of the Simple bond at maturity, we subtract the value of th
 >
 > Convert Bond = $1 - 0.5 \* MAX(Strike Price - Token Price, $0) + 0.04 \* MAX(Token Price - Strike Price, $0)
 
-As the price of UNI drops below $2, the value of the put increases which decreases the value of the Convert bond. As the price of UNI rises above $25, the value of the call increases which increases the value of the Convert bond.
+As the price of UNI drops below $2, the value of the puts increase which decreases the value of the Convert bond. As the price of UNI rises above $25, the value of the calls increase which increases the value of the Convert bond.
 
 ![](<../../.gitbook/assets/image (50).png>)
 

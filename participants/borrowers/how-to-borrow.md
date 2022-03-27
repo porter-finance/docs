@@ -2,6 +2,10 @@
 
 Borrowing is facilitated through the creation of a [bond](../../protocol/bonds/) and its sale through an [offering](../../protocol/offerings/).
 
+{% hint style="info" %}
+If you're interested in becoming a borrower, fill out this [early access form](https://forms.gle/fEqeM5URwRs8K8Fr7) and we will get back to you shortly.
+{% endhint %}
+
 ## Example
 
 Let's use the example bond from the [Convert](../../protocol/bonds/convert.md) page. In that example, Uniswap issued 1,000,000 Convert bonds maturing in 12 months and backed each with 0.5 UNI as collateral with each bond being convertible into 0.04 UNI. The value of this bond at issuance was estimated to be $0.97.
