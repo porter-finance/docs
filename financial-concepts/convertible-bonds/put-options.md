@@ -10,7 +10,7 @@ You pay a fee to purchase a put option, called the [premium](https://www.investo
 
 ### Value at expiration
 
-If the underlying token's current market price is below the strike price at expiration, the profit is the difference in prices, minus the premium.
+If the underlying token's market price is below the strike price at expiration, the profit is the difference in prices, minus the premium.
 
 For example, if UNI is trading at $4 at expiry, the option contract strike price is $10, and the options cost the buyer $2, the profit is $(10 - 2) - $4 = $4
 
