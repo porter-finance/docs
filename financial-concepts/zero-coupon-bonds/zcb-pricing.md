@@ -12,7 +12,7 @@ where:
 * r = required rate of interest
 * n = number of years until maturity
 
-If an investor wishes to make a 10% return on a bond, with $1 par value, that is due to mature in 1 year, they will be willing to pay the following:
+If an investor wishes to make a 10% return on a bond, with $1 face value, that is due to mature in 1 year, they will be willing to pay the following:
 
 > $1 / (1 + 0.1)^1 = $0.91
 
