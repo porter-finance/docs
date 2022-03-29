@@ -10,7 +10,7 @@ You pay a fee to purchase a call option, called the [premium](https://www.invest
 
 ### Value at expiration
 
-If the underlying asset's current market price is above the strike price at expiration, the profit is the difference in prices, minus the premium.
+If the underlying asset's market price is above the strike price at expiration, the profit is the difference in prices, minus the premium.
 
 For example, if UNI is trading at $56 at expiry, the option contract strike price is $50, and the options cost the buyer $2, the profit is $56 - ($50 + $2) = $4.
 
