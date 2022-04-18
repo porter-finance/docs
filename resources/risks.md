@@ -10,7 +10,7 @@ Due to the nature of the protocol, all risks taken on by lenders materialize in 
 
 ### Pricing default risk&#x20;
 
-As shown in our documentation, Porter Finance bonds are the summation of zero-coupon bonds and options. Assuming a borrower defaults 100% of the time the collateral value is below the owed amount at maturity, the risk of default can be priced using [Black Scholes](https://www.investopedia.com/terms/b/blackscholes.asp).
+As shown in [our documentation](https://docs.porter.finance/portal/protocol/bonds/convert#summary), Porter Finance bonds are the summation of zero-coupon bonds and options. Assuming a borrower defaults 100% of the time the collateral value is below the owed amount at maturity, the risk of default can be priced using [Black Scholes](https://www.investopedia.com/terms/b/blackscholes.asp).
 
 #### Options pricing&#x20;
 
