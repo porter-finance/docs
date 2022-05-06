@@ -1,3 +1,3 @@
 # Bonds
 
-Borrowing on Porter starts with the issuance of a bond. At launch, Porter will offer two types of bonds: [Simple](simple.md) and [Convert](broken-reference).
+Borrowing on Porter starts with bond issuance. At launch, Porter will offer two types of bonds: [Simple bonds](simple.md) and [Convertible bonds](convert.md).

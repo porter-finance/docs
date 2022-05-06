@@ -1,14 +1,14 @@
-# How to borrow
+# How does borrowing work?
 
 Borrowing is facilitated through the creation of a [bond](../../protocol/bonds/) and its sale through an [offering](../../protocol/offerings/).
 
 {% hint style="info" %}
-If you're interested in becoming a borrower, fill out this [early access form](https://forms.gle/fEqeM5URwRs8K8Fr7) and we will get back to you shortly.
+If your DAO is interested in becoming a borrower, fill out this [early access form](https://forms.gle/fEqeM5URwRs8K8Fr7) and we will get back to you shortly.
 {% endhint %}
 
 ## Example
 
-Let's use the example bond from the [Convert](../../protocol/bonds/convert.md) page. In that example, Uniswap issued 1,000,000 Convert bonds maturing in 12 months and backed each with 0.5 UNI as collateral with each bond being convertible into 0.04 UNI. The value of this bond at issuance was estimated to be $0.97.
+Let's say Uniswap issues 1,000,000 convertible bonds maturing in 12 months and backs each with 0.5 UNI as collateral with each bond being convertible into 0.04 UNI.
 
 ### Offering
 
@@ -26,12 +26,12 @@ If Uniswap fully repays the $1,000,000 before the 12 months have passed, they wi
 
 #### Partial repayment
 
-If Uniswap repays $500,000 and fails to repay the remaining $500,000 by the maturity date, the bondholders will be able to redeem their bonds for $0.5 and 0.25 UNI.
+If Uniswap defaults on their promise and only repays $500,000 (failing to repay the remaining $500,000 by the maturity date) the bondholders will be able to redeem their bonds for $0.5 and 0.25 UNI.
 
 #### No repayment
 
-If Uniswap does not repay the bonds by maturity, the bondholders will get the full amount of collateral, 0.5 UNI/bond.
+If Uniswap defaults on their promise and does not repay the bonds by maturity, the bondholders will get the full amount of collateral, 0.5 UNI/bond.
 
-#### Repaying Convert bonds
+#### Repaying convertible bonds
 
 If UNI appreciates in value and bondholders elect to convert their bonds into the convertible UNI tokens, UNI will owe $1 less for every bond converted. Also, for every bond repaid, Uniswap will be able to withdraw the collateral/bond **until there are only convertible tokens left.** Convertible tokens cannot be withdrawn until maturity to ensure the bondholders have the ability to convert their bonds.

@@ -1,6 +1,6 @@
 # Call options
 
-### Understanding Call Options  <a href="#mntl-sc-block_1-0-9" id="mntl-sc-block_1-0-9"></a>
+### Understanding Call Options <a href="#mntl-sc-block_1-0-9" id="mntl-sc-block_1-0-9"></a>
 
 A call option gives the holder the right to buy 1 token at the strike price up until the expiration date.
 
@@ -14,6 +14,6 @@ If the underlying asset's market price is above the strike price at expiration, 
 
 For example, if UNI is trading at $56 at expiry, the option contract strike price is $50, and the options cost the buyer $2, the profit is $56 - ($50 + $2) = $4.
 
-Now, if at expiration UNI is trading below $50, obviously the buyer won't exercise the option to buy the token at $50 apiece, and the option expires worthless. The buyer loses $2 for each contract they bought.
+Now, if at expiration UNI is trading below $50, obviously the buyer won't exercise the option to buy the token at $50 a piece, and the option expires worthless. The buyer loses $2 for each contract they bought.
 
 ![](<../../.gitbook/assets/image (8).png>)

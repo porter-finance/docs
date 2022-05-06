@@ -9,15 +9,14 @@
   * [Overview](financial-concepts/zero-coupon-bonds/characteristics-of-bonds.md)
   * [ZCB pricing](financial-concepts/zero-coupon-bonds/zcb-pricing.md)
 * [Options](financial-concepts/convertible-bonds/README.md)
-  * [Put options](financial-concepts/convertible-bonds/put-options.md)
   * [Call options](financial-concepts/convertible-bonds/call-options.md)
   * [Option pricing](financial-concepts/convertible-bonds/option-pricing.md)
 
 ## Protocol
 
 * [Bonds](protocol/bonds/README.md)
-  * [Simple](protocol/bonds/simple.md)
-  * [Convert](protocol/bonds/convert.md)
+  * [Simple bonds](protocol/bonds/simple.md)
+  * [Convertible bonds](protocol/bonds/convert.md)
 * [Offerings](protocol/offerings/README.md)
   * [Auctions](protocol/offerings/auctions.md)
   * [OTC sales](protocol/offerings/otc-sales.md)
@@ -26,13 +25,16 @@
 ## Participants
 
 * [Borrowers](participants/borrowers/README.md)
-  * [How to borrow](participants/borrowers/how-to-borrow.md)
-  * [Verification](participants/borrowers/verification.md)
-  * [Fees](participants/borrowers/fees.md)
+  * [How does borrowing work?](participants/borrowers/how-to-borrow.md)
+  * [How does my DAO get verified?](participants/borrowers/verification.md)
+  * [What are the fees?](participants/borrowers/fees.md)
+  * [How do defaults work?](participants/borrowers/how-do-defaults-work.md)
 * [Lenders](participants/lenders/README.md)
-  * [How to lend](participants/lenders/how-to-lend.md)
-  * [Defaults](participants/lenders/defaults.md)
-* [Porter](participants/porter.md)
+  * [How does lending work?](participants/lenders/how-to-lend.md)
+  * [When can I convert my bonds?](participants/lenders/when-can-i-convert-my-bonds.md)
+  * [How do defaults work?](participants/lenders/defaults.md)
+* [Porter](participants/porter/README.md)
+  * [Underwriting process](participants/porter/underwriting-process.md)
 
 ## Resources
 
