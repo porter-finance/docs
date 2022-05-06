@@ -34,7 +34,7 @@
   * [When can I convert my bonds?](participants/lenders/when-can-i-convert-my-bonds.md)
   * [How do defaults work?](participants/lenders/defaults.md)
 * [Porter](participants/porter/README.md)
-  * [Underwriting process](participants/porter/underwriting-process.md)
+  * [Underwriting process overview](participants/porter/underwriting-process-overview.md)
 
 ## Resources
 

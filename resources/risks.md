@@ -1,6 +1,6 @@
 # Risks
 
-## Purpose&#x20;
+## Summary&#x20;
 
 Porter Finance is heavily incentivized to mitigate, communicate, and accurately price the risk its users take. At launch, the Porter Finance platform will have two users, borrowers and lenders. Given borrowers do not face interest rate risk or liquidation risk, they effectively bear no platform related risk other than smart contract risk, which will be mitigated through auditing. Therefore, we will focus on the risk lenders are taking when using the platform.
 
@@ -21,7 +21,7 @@ This may lead to complete or partial loss of user funds.
 
 ### Mitigating default risk
 
-The Porter Finance team takes issuers through a verification process and [underwrites bond issuances](../participants/porter/underwriting-process.md) by thoroughly reviewing the DAO's financials and analyzing the risk of the collateral provided. To mitigate default risk at launch, we are limiting usage of the platform in the following ways:
+The Porter Finance team takes issuers through a verification process and [underwrites bond issuances](../participants/porter/underwriting-process-overview.md) by thoroughly reviewing the DAO's financials and analyzing the risk of the collateral provided. To mitigate default risk at launch, we are limiting usage of the platform in the following ways:
 
 * Collateral tokens must have a historical volatility less than 150% over the last 90 days
 * Bonds cannot be issued with tenors over 12 months
