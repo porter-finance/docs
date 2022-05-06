@@ -3,7 +3,7 @@
 Lending is facilitated through the purchasing of [bonds](../../protocol/bonds/). Bonds can be purchased through participation in [offerings](../../protocol/offerings/).
 
 {% hint style="info" %}
-If you're interested in becoming a lender, fill out this [early access form](https://forms.gle/fEqeM5URwRs8K8Fr7) and we will get back to you shortly.
+If you're interested in becoming a lender, fill out this [lending form](https://forms.gle/LaDvgXJMZi788LmM6) and we will get back to you shortly.
 {% endhint %}
 
 ## Example
