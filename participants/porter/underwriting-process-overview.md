@@ -119,6 +119,7 @@ Porter Finance attempts to mitigate the risk of lending to DAOs by performing a 
 * Discount collateral to allow for depreciation, transaction sale/costs&#x20;
 * Make sure collateral will be valuable at end of loan term&#x20;
 * Loan amount should not exceed discounted collateral value
+* Does the collateral [pose any risks](https://docs.porter.finance/portal/resources/risks#mitigating-collateral-token-risk)?
 
 ### Reducing collateral risk&#x20;
 
