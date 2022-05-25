@@ -39,6 +39,7 @@
 ## Resources
 
 * [Risks](resources/risks.md)
+* [Bug Bounty](https://immunefi.com/bounty/porterfinance/)
 * [Blog](https://blog.porter.finance)
 * [Discord](https://discord.gg/mx8tsEaNut)
 * [Twitter](https://twitter.com/porterfinance\_)
