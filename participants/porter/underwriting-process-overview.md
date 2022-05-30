@@ -2,7 +2,7 @@
 
 ## Summary
 
-Porter Finance attempts to mitigate the risk of lending to DAOs by performing a credit analysis on them before allowing a bond issuance. This process is based on a review of six key factors that predict the probability of a DAO defaulting on their debt. These factors include character, capital, capacity, conditions, collateral, and contracts. The majority of lenders review most of this information prior to allowing a borrower to take on debt.
+Porter Finance attempts to mitigate the risk of lending to DAOs by performing a credit analysis on them before allowing a bond issuance. This process is based on a review of five key factors that air in predicting the probability of a DAO defaulting on their debt. These factors include character, capital, capacity, conditions, and collateral. The majority of lenders review most of this information prior to allowing a borrower to take on debt.
 
 ## Character/credit&#x20;
 
@@ -129,23 +129,3 @@ Porter Finance attempts to mitigate the risk of lending to DAOs by performing a 
 * Higher volume collateral&#x20;
 * Higher market cap collateral&#x20;
 * Reduce loan amount
-
-## Contracts
-
-### Contracts components
-
-#### Audits
-
-* Are the DAO's smart contracts audited?
-* Who audited the smart contracts?
-* Have the contracts been changed since the audit?
-
-#### Insurance
-
-* Does the DAO partner with a third party to offer smart contract insurance?
-* How much smart contract insurance is offered in relation to funds in the protocol?
-
-### Reducing contract risk
-
-* Request additional audit to be performed
-* Request smart contract insurance be offered
