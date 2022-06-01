@@ -20,7 +20,7 @@
 * [Offerings](protocol/offerings/README.md)
   * [Auctions](protocol/offerings/auctions.md)
   * [OTC sales](protocol/offerings/otc-sales.md)
-* [PRTR Token](protocol/prtr-token.md)
+* [Token](protocol/prtr-token.md)
 
 ## Participants
 

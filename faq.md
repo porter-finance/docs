@@ -2,7 +2,7 @@
 
 ### Do you have a token?
 
-We have not launched a [token](protocol/prtr-token.md). However, when we do, early users and partners will be compensated.
+We have not launched a [token](protocol/prtr-token.md). However, if we do, early users and partners will be compensated.
 
 ### Are Porter's DeFi bonds the same as TradFi bonds?
 
